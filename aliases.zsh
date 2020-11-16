@@ -1,14 +1,5 @@
-# Load Composer tools
-export PATH="$HOME/.composer/vendor/bin:$PATH"
-
-# Load Node global installed binaries
-export PATH="$HOME/.node/bin:$PATH"
-
-# Use project specific binaries before global ones
-export PATH="node_modules/.bin:vendor/bin:$PATH"
-
 # Shortcuts
-alias reloaddns="dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
+alias flushdns="dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
 
 # PHP
 alias composer="php -d memory_limit=-1 /usr/local/bin/composer"
