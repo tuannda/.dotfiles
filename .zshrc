@@ -7,6 +7,10 @@ export DOTFILES=$HOME/.dotfiles
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
+# Path golang
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+
 # Enable completions
 autoload -Uz compinit && compinit
 
