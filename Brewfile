@@ -3,6 +3,7 @@ tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
+tap 'dart-lang/dart'
 
 # Binaries
 brew 'awscli'
@@ -30,6 +31,7 @@ brew 'node'
 brew 'redis'
 brew 'yarn'
 brew 'golang'
+brew 'dart'
 
 # Apps
 cask 'docker'
