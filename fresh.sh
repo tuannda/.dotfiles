@@ -27,8 +27,8 @@ $HOME/.composer/vendor/bin/valet install
 # This is a default directory for macOS user accounts but doesn't comes pre-installed
 mkdir $HOME/Sites
 
-git config --global user.name "Peter Nguyen" 
-git config --global user.email "tuannda38@gmail.com"
+git config --global user.name "TuanNDA" 
+git config --global user.email "tuannda586@gmail.com"
 
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc
